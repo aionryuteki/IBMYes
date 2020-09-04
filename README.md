@@ -190,6 +190,25 @@ RESOURSE_ID // 资源组ID
 找到 `Re-run jobs`重新执行一次即可，至此自动重启已经ok了。
 
 > 感谢药油@[My Flavor](https://yaohuo.me/bbs/userinfo.aspx?touserid=24109)，原本打算弄bash在自己服务器定期执行脚本，现在看了他的帖子，发现用Actions是一个更好的选择。
+================================================================================================================================================================
+白嫖IBM服务器
+具体教程参考
+https://github.com/CCChieh/IBMYes
+
+利用Github的Actions 每周重启 IBM Cloud Fonudray里面有一个BUG要修正
+编辑 /.github/workflows/ibm.yml第38行
+
+./IBM_Cloud_CLI/ibmcloud cf install
+修改成
+./IBM_Cloud_CLI/ibmcloud cf install -v 6.51.0
+
+测试cloudflare的脚本
+原作者的不是太好用，推荐其他的，大家可以试试
+https://github.com/badafans/better-cloudflare-ip
+
+关于如何导入的软路由，其实很简单，你在v2ray的软件里面设置好之后，点击左上方的分享，就会生成一个vmess链接，你把这个链接复制到软路由就行。
+
+===============================================================================================================================================================
 
 # Cloudflare 高速节点中转
 
