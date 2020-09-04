@@ -191,6 +191,7 @@ RESOURSE_ID // 资源组ID
 
 > 感谢药油@[My Flavor](https://yaohuo.me/bbs/userinfo.aspx?touserid=24109)，原本打算弄bash在自己服务器定期执行脚本，现在看了他的帖子，发现用Actions是一个更好的选择。
 ==========================================================================
+
 白嫖IBM服务器
 具体教程参考
 https://github.com/CCChieh/IBMYes
